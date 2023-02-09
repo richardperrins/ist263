@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 4 Notes</title>
+        <style>
+            td, th {border: 1px solid black}
+        </style>
+    </head>
+    <body>
+        <h1>Tables and Forms Day</h1>
+        <h2>Tables</h2>
+            <table>
+                <caption>World Population</caption>
+                <tr>
+                    <th>Country</th>
+                    <th>Population</th>
+                    <th>% of World Population</th>
+                </tr>
+                <tr>
+                    <td>China</td>
+                    <td>1,403,830,640</td>
+                    <td>18.0%</td>
+                </tr>
+                <tr>
+                    <td>India</td>
+                    <td>1,365,529,124</td>
+                    <td>17.5%</td>
+                </tr>
+            </table>
+        <h2>Forms</h2>
+           <!--action - page that process form
+               method - how data is sent (in url or on header)-->
+            <form action="" method="post">
+                <p>This form is going to be for takeout orders.</p>
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                    <br><br>
+                    <label for="items">Items:</label>
+                    <textarea id="items" name="items" rows="3" cols="50"></textarea>
+                    <br><br>
+                    <input type="radio" id="pickup" name="pickupdelivery" value="pickup">
+                    <label for="pickup">pickup</label>
+                    <input type="radio" id="delivery" name="radio" value="delivery">
+                    <label for="delivery">delivery</label>
+                    <br><br>
+                    <input type="checkbox" id="extrasauce" name="extrasauce" value="yes">
+                    <label for="extrasauce">extra sauce</label>
+                    <br><br>
+                      
+                    <label for="location">location</label>
+                        <select name="location" id="location">
+                            <option value="westcott">Westcott</option>
+                            <option value="downtown">Downtown</option>
+                            <option value="eastwood">Eastwood</option>
+                            <option></option><!--blank option is to choose nothing-->
+                        </select>
+                    <label for="orderdate">Order Date:</label>
+                        <input type="date" id="orderdate" name="order date">
+                    <br><br>
+                        <input type="submit" value="place order">
+            </form>
+    </body>
+</html>
