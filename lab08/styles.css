@@ -1,0 +1,50 @@
+body {
+    background-color: #E4DCCF;
+}
+
+p, li {
+    color: #7D9D9C;
+    margin: 10px; 
+}
+
+a{
+    color: #3A98B9;
+}
+h1, h2 {
+    color: #4E6E81;
+    margin: 10px;
+}
+
+img {
+    margin: 10px;
+}
+
+nav {
+    background-color: #E1EEDD;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a:hover {
+    color: #FF0303;
+}
+
+nav a {
+    color: #F0A04B;
+}
+
+.quote {
+    float: right;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+    clear: both;
+}
+
+.part1, .part2 {display: flex; background-color:#d7ffe4; border-radius: 1em; margin: 10px; padding: 10px;}
+.address {flex: 1;}
+.email {flex: 2;}
+.questions {flex: 1;}
+.map {flex: 2;}
