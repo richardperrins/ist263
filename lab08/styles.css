@@ -33,6 +33,7 @@ nav a {
     color: #F0A04B;
 }
 
+footer {float: bottom;}
 .quote {
     float: right;
 }
