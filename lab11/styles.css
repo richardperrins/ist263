@@ -46,7 +46,7 @@ img {
 
 .part1, .part2 {display: flex; background-color:#d7ffe4; border-radius: 1em; margin: 10px; padding: 10px;}
 .address {flex: 1;}
-.email {flex: 2;}
+.email {flex: 2; color:#0005ff;}
 .questions {flex: 1;}
 .map {flex: 2;}
 
