@@ -3,7 +3,7 @@ body {
 }
 
 p, li {
-    color: #7D9D9C;
+    color: #0015ff;
     margin: 10px; 
 }
 
@@ -26,11 +26,11 @@ nav {
 }
 
 nav a:hover {
-    color: #FF0303;
+    color: #ff03b3;
 }
 
 nav a {
-    color: #F0A04B;
+    color: #ff0000;
 }
 
 footer {float: bottom;}
