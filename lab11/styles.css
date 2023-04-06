@@ -54,7 +54,7 @@ h1 {text-align: center;}
 .intro {width: 75%; margin: 0 auto; padding: 10px; text-align: left;}
 .icons {display: flex; float: left; flex-basis: 75%; justify-content: center; justify-content: space-between;}
 .icons div {float: left;}
-.sidebar {float: right; background-color: #F0A04B; padding: 20px; border-radius: 1em;}
+.sidebar {float: right; background-color: #F0A04B; padding: 20px; border-radius: 1em; color:#000000;}
 .container {display: flex;}
 
 .headshot {max-width: 100%;}
