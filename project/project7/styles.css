@@ -30,6 +30,15 @@ body {background-color:#D5DCF9; font-family:"Josefin Sans", sans-serif;}
 
 @media only screen and (max-width: 800px) {
     img {width:300px;}
+    .headshot {display:block;}
+    .body {display:block;}
+    .content-splash {display:block;}
+    .content-clips {display:block;}
+    .story {display:block;}
+    .row {display:block;}
+    .content-resume {display:block;}
+    .embed {display:block;}
+    .socials {display:block;}
 }
 
 
