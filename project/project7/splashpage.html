@@ -7,8 +7,11 @@
     <title>Richard Perrins Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <script>
-        function welcome () {
-            alert("Hi! My name is Richard Perrins. Welcome to my portfolio.");
+        function transition () {
+        document.getElementById("body").style.transition = "all 2s";
+        }
+        function transition () {
+            document.getElementById("buttons").style.transition = "all 2s";
         }
     </script>
 </head>
@@ -18,8 +21,8 @@
     
     <div class="content-splash">
         <div class="headshot"><img src="../images/headshotcrop.jpg" alt="Richard Perrins headshot" width="600"></div>
-        <div class="body"><p>Hello, my name is Richard Perrins. I am an undergraduate student at Syracuse University pursuing a dual major in Magazine, News & Digital Journalism and Political Science. I’ve worked at several publications as a reporter and editor. Since May 2022, I have served as the editor-in-chief of The Daily Orange, the independent student newspaper of Syracuse University. The Daily Orange takes no money from and has no affiliation with the university, which I believe allows us to hold SU accountable and report on the community in the way we see best. I’m proud of the work I’ve produced and decided to build my own space to showcase that. Click through to take a look at some of my work.</p>
-            <div class="buttons"><input type="button" class="block" value="See my clips" onclick = "window.open('clips.html');"><input type="button" class="block" value="Resume" onclick = "window.open('resume.html');">
+        <div class="body" onmouseover="transition()" ><p>Hello, my name is Richard Perrins. I am an undergraduate student at Syracuse University pursuing a dual major in Magazine, News & Digital Journalism and Political Science. I’ve worked at several publications as a reporter and editor. Since May 2022, I have served as the editor-in-chief of The Daily Orange, the independent student newspaper of Syracuse University. The Daily Orange takes no money from and has no affiliation with the university, which I believe allows us to hold SU accountable and report on the community in the way we see best. I’m proud of the work I’ve produced and decided to build my own space to showcase that. Click through to take a look at some of my work.</p>
+            <div class="buttons" onmouseover="transition()"><input type="button" class="block" value="See my clips" onclick = "window.open('clips.html');"><input type="button" class="block" value="Resume" onclick = "window.open('resume.html');">
             </div>
         </div>
     </div>
